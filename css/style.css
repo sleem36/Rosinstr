@@ -1041,6 +1041,28 @@ a.instr:hover .im_gray {
 .map-form input[type='checkbox']:before {
     background-color: #3f3f3f;
 }
+.vi_dostav2 .dd11,.vi_dostav2 .dd12,.vi_dostav2 .dd13  {
+    background: #fff;
+    padding: 20px 10px 40px 10px;
+    border-radius: 8px;
+    margin: 30px 0;
+-webkit-box-shadow: -1px 0px 27px 0px rgba(0,0,0,0.14);
+-moz-box-shadow: -1px 0px 27px 0px rgba(0,0,0,0.14);
+box-shadow: -1px 0px 27px 0px rgba(0,0,0,0.14);
+}
+.vi_dostav .card {
+    border: 0px;
+}
+.vi_dostav.accordion .card-header:after {
+    height: 0px;
+}
+.strond {
+    text-align: left;
+}
+
+
+
+
 
 @media (max-width:1200px){
 	.d-fl2 {

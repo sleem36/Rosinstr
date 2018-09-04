@@ -24,13 +24,44 @@
             }
         });
 
-$('.btn.btn-danger').click(function(event) {
-event.preventDefault();
-       if( $('.checks').is(':checked')){
-        alert('vkl');
-       }else{
-                alert('vikl');
-       }
-});
+        $('.btn.btn-danger').click(function(event) {
+        event.preventDefault();
+               if( $('.checks').is(':checked')){
+                alert('vkl');
+               }else{
+                        alert('vikl');
+               }
+        });
+
+        $('.w992 .tad').eq(0).show();
+        $('.dop992 .tad4').eq(0).show();
+        $('.w992 .sr1.stab').addClass('active');
+        $('.w992 .stab').click(function(){
+            num = $('.w992 .stab').index(this);
+            $('.w992 .tad').hide();
+            $('.w992 .tad').eq(num).show();
+        });
+        $('.dop992 .stab').click(function(){
+            num = $('.dop992 .stab').index(this);
+            $('.dop992 .tad4').hide();
+            $('.dop992 .tad4').eq(num).show();
+        });
+        $('.s992 ').on("click","div.stab",function(){
+            if($(this).hasClass('active')){
+                $(this).removeClass('active');
+            }else{
+                $('.s992 .stab').removeClass('active');
+                $(this).addClass('active');
+            }
+        });
+        $('.w992 .stab').click(function(){
+            $('.w992 .stab').removeClass('active');
+            $(this).addClass('active');
+        });
+        $('.dop992 .stab').click(function(){
+            $('.dop992 .stab').removeClass('active');
+            $(this).addClass('active');
+        });
+
 
     });
