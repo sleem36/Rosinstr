@@ -150,267 +150,373 @@
     <div class="container" id='main'>
 
 
-<div class="row drop-korz">
-        <div class="col-12 d-none col-lg-3 d-lg-block pr-3 pl-0">
-                <!-- two card left -->
-                    <div class="card card-face">
-                     <img class="im_face" src="http://dummyimage.com/80x80/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
-                        <a class="card-title ati">
-                            Иванов Сергей Андреевич
-                        </a>
-                        <div class="lred"></div>
-                        <div class="card-body">
-                                <div class="colin"><a href="" class="anod">Личный кабинет</a></div>
-                                <div class="colin"><a href="" class="anod">Корзина</a></div>
-                                <div class="colin"><a href="" class="anod">История заказов</a></div>
-                                <div class="colin"><a href="" class="anod">Выход</a></div>
-                        </div>
-                    </div><br><br>
-                    <div class="card card-face card-face-black">
-                        <div class="vash-men">Ваш менеджер</div>
-                     <img class="im_face" src="http://dummyimage.com/80x80/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
-                        <a class="card-title ati">
-                            Иванова Анна Андреевна
-                        </a>
-                        <div class="lred"></div>
-                        <div class="card-body">
-                            <div class="teli">
-                                <a href="tel:89001007022">+7 (900) 100-70-22</a>
+        <div class="row drop-korz">
+                <div class="col-12 d-none col-lg-3 d-lg-block pr-3 pl-0">
+                        <!-- two card left -->
+                            <div class="card card-face">
+                             <img class="im_face" src="http://dummyimage.com/80x80/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+                                <a class="card-title ati">
+                                    Иванов Сергей Андреевич
+                                </a>
+                                <div class="lred"></div>
+                                <div class="card-body">
+                                        <div class="colin"><a href="" class="anod">Личный кабинет</a></div>
+                                        <div class="colin"><a href="" class="anod">Корзина</a></div>
+                                        <div class="colin"><a href="" class="anod">История заказов</a></div>
+                                        <div class="colin"><a href="" class="anod">Выход</a></div>
+                                </div>
+                            </div><br><br>
+                            <div class="card card-face card-face-black">
+                                <div class="vash-men">Ваш менеджер</div>
+                             <img class="im_face" src="http://dummyimage.com/80x80/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+                                <a class="card-title ati">
+                                    Иванова Анна Андреевна
+                                </a>
+                                <div class="lred"></div>
+                                <div class="card-body">
+                                    <div class="teli">
+                                        <a href="tel:89001007022">+7 (900) 100-70-22</a>
+                                    </div>
+                                    <div class="scypi">
+                                        <a>400-50-40-22-33</a>
+                                    </div>
+                                    <div class="maili">
+                                        <a href="mailto:123@burusov.ru">123@burusov.ru</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="scypi">
-                                <a>400-50-40-22-33</a>
-                            </div>
-                            <div class="maili">
-                                <a href="mailto:123@burusov.ru">123@burusov.ru</a>
-                            </div>
-                        </div>
+                        <!-- end two card left -->
+                </div>
+                <div class="col-lg-9 col-md-12 bread">
+                    <div class="row">
+                        <div class="col in_sopl"><a href="" class="asvw">Главная</a> / <span>услуги</span></div>
                     </div>
-                <!-- end two card left -->
+                    <div class="zag">
+                        Корзина
+                    </div>
+
+        <!-- Корзина до 992 пикс  -->
+                    <div class="row d-none d-lg-flex">
+                        <table class="red-korz-1">
+                            <thead>
+                                <tr class="red-korz">
+                                    <th>Артикул</th>
+                                    <th>Товар</th>
+                                    <th>Цена без <br>НДС в &#8381;</th>
+                                    <th>Количество</th>
+                                    <th>Стоимость<br> без НДС в&nbsp;&#8381;</th>
+                                    <th>Удалить</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class='nadcharks'>
+                                    <td>29000029</td>
+                                    <td><a class='peit-arr procent'>Фреза дисковая  3-х стор.</a></td>
+                                    <td>3 000</td>
+                                    <td class="qty">
+                                        <div class="number">
+                                            <img class="minus" src="img/minus.png" alt="img">
+                                              <input type="text" name="cart[33][83]" value="1" class="qty83">
+                                            <img class="plus" src="img/plus.png" alt="img">
+                                        </div>
+                                    </td>
+                                    <td>12 000</td>
+                                    <td>
+                                        <a class="a-udal" href=""></a>
+                                    </td>
+                                </tr>
+                                <tr class='tr-charks'>
+                                    <td colspan="6">
+                                        <div class="row pl3">
+                                            <div class="col-3">
+                                                 <img src="http://dummyimage.com/100x100/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+                                            </div>
+                                            <div class="col-9">
+                                                <div class="harki">
+                                                    <div class="row">
+                                                        <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
+                                                            <span class='tire-center'>...........................................................................................................</span>
+                                                            <span class='tire-end'>456</span>
+                                                        </div>
+                                                        <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
+                                                            <span class='tire-center'>...........................................................................................................</span>
+                                                            <span class='tire-end'>456</span>
+                                                        </div>
+                                                        <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
+                                                            <span class='tire-center'>...........................................................................................................</span>
+                                                            <span class='tire-end'>456</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class='nadcharks'>
+                                    <td>29000029</td>
+                                    <td><a class='peit-arr'>Фреза дисковая  3-х стор.</a></td>
+                                    <td>3 000</td>
+                                    <td class="qty">
+                                        <div class="number">
+                                            <img class="minus" src="img/minus.png" alt="img">
+                                              <input type="text" name="cart[33][83]" value="1" class="qty83">
+                                            <img class="plus" src="img/plus.png" alt="img">
+                                        </div>
+                                    </td>
+                                    <td>12 000</td>
+                                    <td>
+                                        <a class="a-udal" href=""></a>
+                                    </td>
+                                </tr>
+                                <tr class='tr-charks'>
+                                    <td colspan="6">
+                                        <div class="row pl3">
+                                            <div class="col-3">
+                                                 <img src="http://dummyimage.com/100x100/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+                                            </div>
+                                            <div class="col-9">
+                                                <div class="harki">
+                                                    <div class="row">
+                                                        <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
+                                                            <span class='tire-center'>...........................................................................................................</span>
+                                                            <span class='tire-end'>456</span>
+                                                        </div>
+                                                        <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
+                                                            <span class='tire-center'>...........................................................................................................</span>
+                                                            <span class='tire-end'>456</span>
+                                                        </div>
+                                                        <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
+                                                            <span class='tire-center'>...........................................................................................................</span>
+                                                            <span class='tire-end'>456</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class='nadcharks'>
+                                    <td>29000029</td>
+                                    <td><a class='peit-arr'>Фреза дисковая  3-х стор.</a></td>
+                                    <td>3 000</td>
+                                    <td class="qty">
+                                        <div class="number">
+                                            <img class="minus" src="img/minus.png" alt="img">
+                                              <input type="text" name="cart[33][83]" value="1" class="qty83">
+                                            <img class="plus" src="img/plus.png" alt="img">
+                                        </div>
+                                    </td>
+                                    <td>12 000</td>
+                                    <td>
+                                        <a class="a-udal" href=""></a>
+                                    </td>
+                                </tr>
+                                <tr class='tr-charks'>
+                                    <td colspan="6">
+                                        <div class="row pl3">
+                                            <div class="col-3">
+                                                 <img src="http://dummyimage.com/100x100/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+                                            </div>
+                                            <div class="col-9">
+                                                <div class="harki">
+                                                    <div class="row">
+                                                        <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
+                                                            <span class='tire-center'>...........................................................................................................</span>
+                                                            <span class='tire-end'>456</span>
+                                                        </div>
+                                                        <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
+                                                            <span class='tire-center'>...........................................................................................................</span>
+                                                            <span class='tire-end'>456</span>
+                                                        </div>
+                                                        <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
+                                                            <span class='tire-center'>...........................................................................................................</span>
+                                                            <span class='tire-end'>456</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+
+                                <tr class='nadcharks'>
+                                    <td>29000029</td>
+                                    <td><a class='peit-arr'>Фреза дисковая  3-х стор.</a></td>
+                                    <td>3 000</td>
+                                    <td class="qty">
+                                        <div class="number">
+                                            <img class="minus" src="img/minus.png" alt="img">
+                                              <input type="text" name="cart[33][83]" value="1" class="qty83">
+                                            <img class="plus" src="img/plus.png" alt="img">
+                                        </div>
+                                    </td>
+                                    <td>12 000</td>
+                                    <td>
+                                        <a class="a-udal" href=""></a>
+                                    </td>
+                                </tr>
+                                <tr class='tr-charks'>
+                                    <td colspan="6">
+                                        <div class="row pl3">
+                                            <div class="col-3">
+                                                 <img src="http://dummyimage.com/100x100/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+                                            </div>
+                                            <div class="col-9">
+                                                <div class="harki">
+                                                    <div class="row">
+                                                        <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
+                                                            <span class='tire-center'>...........................................................................................................</span>
+                                                            <span class='tire-end'>456</span>
+                                                        </div>
+                                                        <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
+                                                            <span class='tire-center'>...........................................................................................................</span>
+                                                            <span class='tire-end'>456</span>
+                                                        </div>
+                                                        <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
+                                                            <span class='tire-center'>...........................................................................................................</span>
+                                                            <span class='tire-end'>456</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                <!--  Корзина менее 992  -->
+                <div class="d-lg-none">
+                    <div class="row korz-min ">
+                        <div class="col-11">
+                            <div class="grey-sm">Арт.: 29000029</div>
+                            <div class="raspord">Распродажа</div>
+                            <a href='' class="turl">Фреза дисковая  3-х стор. фреза.</a>
+                            <div class="grey-sm">Остаток: <span class="korz-t">300 000</span></div>
+                            <div class="grey-sm color-27">Цена без НДС в &#8381; : 
+                                <span class="korz-t float-right t16">3 000</span>
+                            </div>
+                            <div class="row">
+                                <div class="qty qty-min col-7">
+                                    <div class="number">
+                                        <img class="minus" src="img/minus2.png" alt="img">
+                                        <input type="text" name="cart[33][83]" value="1" class="qty83">
+                                        <img class="plus" src="img/plus2.png" alt="img">
+                                    </div>
+                                    <span class="a-udal clear-input" href=""></span>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="col-1 raspord-h h100"></div>
+                                            <div class="tr-charks py-3">
+                                                    <div class="row text-center">
+                                                        <div class="col-3">
+                                                             <img src="http://dummyimage.com/100x100/4d494d/686a82.gif&amp;text=placeholder+image" alt="placeholder+image">
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <div class="harki harki-min">
+                                                                <div class="row">
+                                                                    <div class="col-12 charka"><span class="tire-start">ГОСТ:</span> 
+                                                                       <span class="tire-center">...........................................................................................................</span>
+                                                                        <span class="tire-end">456</span>
+                                                                    </div>
+                                                                    <div class="col-12 charka"><span class="tire-start">Диаметр,D:</span> 
+                                                                        <span class="tire-center">...........................................................................................................</span>
+                                                                        <span class="tire-end">456</span>
+                                                                    </div>
+                                                                    <div class="col-12 charka"><span class="tire-start">Длина:</span> 
+                                                                        <span class="tire-center">...........................................................................................................</span>
+                                                                        <span class="tire-end">456</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                    </div>
+                    <div class="row korz-min">
+                        <div class="col-11">
+                            <div class="grey-sm">Арт.: 29000029</div>
+                            <div class="raspord">Распродажа</div>
+                            <a href='' class="turl">Фреза дисковая  3-х стор. фреза.</a>
+                            <div class="grey-sm">Остаток: <span class="korz-t">300 000</span></div>
+                            <div class="grey-sm color-27">Цена без НДС в &#8381; : 
+                                <span class="korz-t float-right t16">3 000</span>
+                            </div>
+                            <div class="row">
+                                <div class="qty qty-min col-7">
+                                    <div class="number">
+                                        <img class="minus" src="img/minus2.png" alt="img">
+                                        <input type="text" name="cart[33][83]" value="1" class="qty83">
+                                        <img class="plus" src="img/plus2.png" alt="img">
+                                    </div>
+                                    <span class="a-udal clear-input" href=""></span>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="col-1 raspord-h h100"></div>
+                                            <div class="tr-charks py-3">
+                                                    <div class="row text-center">
+                                                        <div class="col-3">
+                                                             <img src="http://dummyimage.com/100x100/4d494d/686a82.gif&amp;text=placeholder+image" alt="placeholder+image">
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <div class="harki harki-min">
+                                                                <div class="row">
+                                                                    <div class="col-12 charka"><span class="tire-start">ГОСТ:</span> 
+                                                                       <span class="tire-center">...........................................................................................................</span>
+                                                                        <span class="tire-end">456</span>
+                                                                    </div>
+                                                                    <div class="col-12 charka"><span class="tire-start">Диаметр,D:</span> 
+                                                                        <span class="tire-center">...........................................................................................................</span>
+                                                                        <span class="tire-end">456</span>
+                                                                    </div>
+                                                                    <div class="col-12 charka"><span class="tire-start">Длина:</span> 
+                                                                        <span class="tire-center">...........................................................................................................</span>
+                                                                        <span class="tire-end">456</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+
+                            </div>
+                </div>
+                <!--  Корзина менее 992  -->
+
+                        <div class="row">
+                            <div class="col-12 charka-bott">
+                                <span class="tire-start-bott">Количество товаров в наличии:</span> 
+                                <span class="tire-end-bott">5 шт.</span>
+                            </div>
+                            <div class="col-12 charka-bott">
+                                <span class="tire-start-bott">Количество товаров под заказ:</span> 
+                                <span class="tire-end-bott">5 шт.</span>
+                            </div>
+                            <div class="col-12 charka-bott">
+                                <span class="tire-start-bott t18">Итого к оплате:</span> 
+                                <span class="tire-end-bott t30">35 000 <span class="tire-rub">руб</span></span>
+                            </div>
+                            <div class="col-12 charka-bott-gray">
+                                <span class="tire-start-bott t-smal-gray">*Стоимость указана без учета доставки</span> 
+                            </div>
+                            <div class="col-12 charka-bott">
+                                <button type="submit" class="btn btn-danger red_butt">Оформить заказ</button>
+                            </div>
+                        </div>
+
+            </div>
         </div>
-        <div class="col-lg-9 col-md-12 bread">
-            <div class="row">
-                <div class="col in_sopl"><a href="" class="asvw">Главная</a> / <span>услуги</span></div>
-            </div>
-            <div class="zag">
-                Корзина
-            </div>
-
-
-            <div class="row">
-                <table class="red-korz-1">
-                    <thead>
-                        <tr class="red-korz">
-                            <th>Артикул</th>
-                            <th>Товар</th>
-                            <th>Цена без НДС в <img class="rub" src="img/rub.png" alt="img"></th>
-                            <th>Количество</th>
-                            <th>Стоимость без НДС в&nbsp;<img class="rub" src="img/rub.png" alt="img"></th>
-                            <th>Удалить</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class='nadcharks'>
-                            <td>29000029</td>
-                            <td><a class='peit-arr'>Фреза дисковая  3-х стор.</a></td>
-                            <td>3 000</td>
-                            <td class="qty">
-                                <div class="number">
-                                    <img class="minus" src="img/minus.png" alt="img">
-                                      <input type="text" name="cart[33][83]" value="1" class="qty83">
-                                    <img class="plus" src="img/plus.png" alt="img">
-                                </div>
-                            </td>
-                            <td>12 000</td>
-                            <td>
-                                <a class="a-udal" href=""></a>
-                            </td>
-                        </tr>
-                        <tr class='tr-charks'>
-                            <td colspan="6">
-                                <div class="row pl3">
-                                    <div class="col-3">
-                                         <img src="http://dummyimage.com/100x100/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
-                                    </div>
-                                    <div class="col-9">
-                                        <div class="harki">
-                                            <div class="row">
-                                                <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
-                                                    <span class='tire-center'>...........................................................................................................</span>
-                                                    <span class='tire-end'>456</span>
-                                                </div>
-                                                <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
-                                                    <span class='tire-center'>...........................................................................................................</span>
-                                                    <span class='tire-end'>456</span>
-                                                </div>
-                                                <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
-                                                    <span class='tire-center'>...........................................................................................................</span>
-                                                    <span class='tire-end'>456</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-
-                        <tr class='nadcharks'>
-                            <td>29000029</td>
-                            <td><a class='peit-arr'>Фреза дисковая  3-х стор.</a></td>
-                            <td>3 000</td>
-                            <td class="qty">
-                                <div class="number">
-                                    <img class="minus" src="img/minus.png" alt="img">
-                                      <input type="text" name="cart[33][83]" value="1" class="qty83">
-                                    <img class="plus" src="img/plus.png" alt="img">
-                                </div>
-                            </td>
-                            <td>12 000</td>
-                            <td>
-                                <a class="a-udal" href=""></a>
-                            </td>
-                        </tr>
-                        <tr class='tr-charks'>
-                            <td colspan="6">
-                                <div class="row pl3">
-                                    <div class="col-3">
-                                         <img src="http://dummyimage.com/100x100/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
-                                    </div>
-                                    <div class="col-9">
-                                        <div class="harki">
-                                            <div class="row">
-                                                <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
-                                                    <span class='tire-center'>...........................................................................................................</span>
-                                                    <span class='tire-end'>456</span>
-                                                </div>
-                                                <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
-                                                    <span class='tire-center'>...........................................................................................................</span>
-                                                    <span class='tire-end'>456</span>
-                                                </div>
-                                                <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
-                                                    <span class='tire-center'>...........................................................................................................</span>
-                                                    <span class='tire-end'>456</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-
-                        <tr class='nadcharks'>
-                            <td>29000029</td>
-                            <td><a class='peit-arr'>Фреза дисковая  3-х стор.</a></td>
-                            <td>3 000</td>
-                            <td class="qty">
-                                <div class="number">
-                                    <img class="minus" src="img/minus.png" alt="img">
-                                      <input type="text" name="cart[33][83]" value="1" class="qty83">
-                                    <img class="plus" src="img/plus.png" alt="img">
-                                </div>
-                            </td>
-                            <td>12 000</td>
-                            <td>
-                                <a class="a-udal" href=""></a>
-                            </td>
-                        </tr>
-                        <tr class='tr-charks'>
-                            <td colspan="6">
-                                <div class="row pl3">
-                                    <div class="col-3">
-                                         <img src="http://dummyimage.com/100x100/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
-                                    </div>
-                                    <div class="col-9">
-                                        <div class="harki">
-                                            <div class="row">
-                                                <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
-                                                    <span class='tire-center'>...........................................................................................................</span>
-                                                    <span class='tire-end'>456</span>
-                                                </div>
-                                                <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
-                                                    <span class='tire-center'>...........................................................................................................</span>
-                                                    <span class='tire-end'>456</span>
-                                                </div>
-                                                <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
-                                                    <span class='tire-center'>...........................................................................................................</span>
-                                                    <span class='tire-end'>456</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-
-
-                        <tr class='nadcharks'>
-                            <td>29000029</td>
-                            <td><a class='peit-arr'>Фреза дисковая  3-х стор.</a></td>
-                            <td>3 000</td>
-                            <td class="qty">
-                                <div class="number">
-                                    <img class="minus" src="img/minus.png" alt="img">
-                                      <input type="text" name="cart[33][83]" value="1" class="qty83">
-                                    <img class="plus" src="img/plus.png" alt="img">
-                                </div>
-                            </td>
-                            <td>12 000</td>
-                            <td>
-                                <a class="a-udal" href=""></a>
-                            </td>
-                        </tr>
-                        <tr class='tr-charks'>
-                            <td colspan="6">
-                                <div class="row pl3">
-                                    <div class="col-3">
-                                         <img src="http://dummyimage.com/100x100/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
-                                    </div>
-                                    <div class="col-9">
-                                        <div class="harki">
-                                            <div class="row">
-                                                <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
-                                                    <span class='tire-center'>...........................................................................................................</span>
-                                                    <span class='tire-end'>456</span>
-                                                </div>
-                                                <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
-                                                    <span class='tire-center'>...........................................................................................................</span>
-                                                    <span class='tire-end'>456</span>
-                                                </div>
-                                                <div class="col-6 charka"><span class='tire-start'>ГОСТ:</span> 
-                                                    <span class='tire-center'>...........................................................................................................</span>
-                                                    <span class='tire-end'>456</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-
-
-
-
-
-                    </tbody>
-                </table>
-            </div>
-        </div>
-</div>
-
-
-
-
-
-                                            
-                                            <div class="col-6">Диаметр,D: ........................................................... 333;</div>
-                                            <div class="col-6">Производитель: ............................................................................................................................................. Барс;</div>
-                                            <div class="col-6">ГОСТ: .................................................................. 33333;</div>
-                                            <div class="col-6">Длина: ............................................................... 11111;</div>
     </div>
     <!-- конец main -->
 
     <div class="cont">
-
-
         <div class="container-fluid d-none d-lg-block  px-0 ">
             <div class="card-group container">
                 <div class="card">

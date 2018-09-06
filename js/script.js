@@ -64,11 +64,14 @@
         });
 
 // korzina четные
-      $(".nadcharks:even").css("background-color", "##eeeeee");
+      $(".nadcharks:even").css("background-color", "#eeeeee");
+            $('.clear-input').click(function(){
+                $(this).prev().find('input').val('0');
+            });
 
 // =======================================================================================================================
 // korzina характеристики
-        $('.nadcharks').click(function(){
+        $('.nadcharks, .raspord-h').click(function(){
             $(this).next().toggleClass('vision');
             $(this).toggleClass('vision_active');
         });
