@@ -1316,6 +1316,8 @@ box-shadow: -1px 0px 27px 0px rgba(0,0,0,0.14);
 .tire-rub {
     font-size: 24px;
     font-weight: 600;
+    position: relative;
+    bottom: 2px;
 }
 .tire-start-bott.t18 {
     position: relative;
@@ -1601,6 +1603,72 @@ box-shadow: -1px 0px 27px 0px rgba(0,0,0,0.14);
     line-height: 19px;
     text-decoration: underline;
 }
+input[type='radio'] {
+    border: 0;
+    background: transparent;
+    position: relative;
+    top: 4px;
+    left: 2px;
+    width: 22px;
+    margin-right: 16px;
+    height: 20px;
+}
+input[type='radio']:before {
+    content: ' ';
+    display: block;
+border-radius: 15px;
+-webkit-box-shadow: inset 2px 2px 14px 0px rgba(0,0,0,0.06);
+-moz-box-shadow: inset 2px 2px 14px 0px rgba(0,0,0,0.06);
+box-shadow: inset 2px 2px 14px 0px rgba(0,0,0,0.06);
+    border: 1px solid #ced4da;
+    margin-top: -4px;
+    margin-left: -2px;
+    width: 24px;
+    height: 24px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+input[type='radio']:checked:before {
+    background-image: url(../img/tik-red.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.p50 {
+    margin-left: 50px;
+}
+.row#bel_fon .inpi {
+    width: 90%;
+}
+.polosa-form {
+    height: 1px;
+    background-color: #b2b2b2;
+    width: 100%;
+    margin: 0 0 30px;
+}
+.samo {
+    width: 100%;
+    padding: 30px;
+    padding-top: 0;
+}
+.ris {
+    padding-bottom: 8px;
+}
+.gorod {
+    padding-top: 0;
+    font-weight: bold;
+    padding: 0 0 20px 14px;
+}
+.samo {
+    display: none;
+}
+.lab-for.samovivoz {
+    margin-right: 50px;
+}
+.hide-group.row {
+    margin: 0;
+}
+
 
 
 
@@ -1732,6 +1800,12 @@ box-shadow: -1px 0px 27px 0px rgba(0,0,0,0.14);
     }
 }
 @media(max-width:768px){
+    .p50 {
+        margin-left: 0px;
+    }
+    .lab-for {
+        display: block;
+    }
     .map-form {
         position: relative;
         margin: auto;

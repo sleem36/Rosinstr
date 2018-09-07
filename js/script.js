@@ -71,9 +71,24 @@
 
 // =======================================================================================================================
 // korzina характеристики
+        $('.samovivoz').click(function() {
+                  //      alert('vikl');
+               if( $('#male').is(':checked')){
+                 $('.samo').show();
+                 $('.hide-group').hide();
+               }
+        });
+        $('.gidost').click(function() {
+               if( $('#female').is(':checked')){
+                 $('.samo').hide();
+                 $('.hide-group').css('display', 'flex');
+               }
+        });
+
+// =======================================================================================================================
+// samovivoz form
         $('.nadcharks, .raspord-h').click(function(){
-            $(this).next().toggleClass('vision');
-            $(this).toggleClass('vision_active');
+            $(samovivoz).next().toggleClass('vision');
         });
 
 // =======================================================================================================================
