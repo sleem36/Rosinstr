@@ -152,50 +152,92 @@
             <div class="col in_sopl"><a href="" class="asvw">Главная</a> / <span>услуги</span></div>
         </div>
         <div class="zag">
-            Вход в личный кабинет
+            Новости
         </div>
-        <div class="text">
-
-
-            <form id='bel_fon'>
-                <div class="row">
-                    <div class="col-12 col-md-6  left_bord">
-                        <div class="midd htot">Авторизация на сайте</div>
-                        <div class="form-group">
-                            <label class="htot" for="exampleInputEmail1">Имя пользователя или Email*</label>
-                            <input type="email" class="inpi" id="exampleInputEmail1" ariadescribedby="emailHelp" placeholder="">
-                        </div>
-                        <div class="form-group">
-                            <a href="" class='zapomn'>Забыли пароль ?</a>
-                            <label class="htot" for="exampleInputPassword1">Пароль*</label>
-                            <input type="password" class="inpi" id="exampleInputPassword1" placeholder="">
-                            <br><br>
-                        </div>
-                        <div class="checkbox lfloat" id='b_l'>
-                            <label for='type1' class='label_int'>
-                                <input id='type1' class='checks' type="checkbox">
-                                <span class='zapomn'>Запомнить меня</span>
-                            </label>
-                        </div>
-                        <a class="rfloat" href=""><button class="btn btn-danger red_butt">Войти в кабинет</button></a>
-                    </div>
-                    <div class="col-12 col-md-6 need_bord">
-                        <div class="midd htot">Регистрация нового пользователя</div>
-                        <div class="htot">Быстро, удобно, легко!</div><br>
-                        <ul>
-                            <li class="findse">Используйте введенные ранее данные;</li>
-                            <li class="findse">Сохраняйте историю заказов</li>
-                            <li class="findse">Получайте персонализированные предложения</li>
-                            <li class="findse">Сохраняйте историю заказов</li>
-                            <li class="findse">Сохраняйте историю заказов</li>
-                        </ul>
-                        <button type="submit" class="btn btn-danger red_butt">Зарегистрироваться</button>
-                    </div>
+        <div class="row py-3 bl-news">
+            <div class="news-block-img col-12 col-md-2">
+                <img src="img/news.png" alt="img" class='img-news'>
+            </div>
+            <div class="news-block-text col-12 col-md-9">
+              <div class="opis">Описание</div>
+              <div class="kalend"><img src="img/kalend.png" alt="img"> 30.05.2018</div>
+                <div class="news-text">Дисковые фрезы предназначены для обработки плоскостей, уступов и пазов. Основным типом дисковых фрез являются трехсторонние. Они имеют зубья на цилиндрической поверхности и на обоих торцах. Их применяют для обработки уступов и более глубоких пазов. Они обеспечивают более высокий класс шероховатости боковых стенок паза или уступа. Они имеют зубья на цилиндрической поверхности и на обоих торцах. Их применяют для обработки уступов и более глубоких пазов.
                 </div>
-            </form>
-
-
+                <a href='' class="fla">Подробнее</a>
+            </div>
         </div>
+        <div class="row py-3 bl-news">
+            <div class="news-block-img col-12 col-md-2">
+                <img src="img/news.png" alt="img" class='img-news'>
+            </div>
+            <div class="news-block-text col-12 col-md-9">
+              <div class="opis">Описание</div>
+              <div class="kalend"><img src="img/kalend.png" alt="img"> 30.05.2018</div>
+                <div class="news-text">Дисковые фрезы предназначены для обработки плоскостей, уступов и пазов. Основным типом дисковых фрез являются трехсторонние. Они имеют зубья на цилиндрической поверхности и на обоих торцах. Их применяют для обработки уступов и более глубоких пазов. Они обеспечивают более высокий класс шероховатости боковых стенок паза или уступа. Они имеют зубья на цилиндрической поверхности и на обоих торцах. Их применяют для обработки уступов и более глубоких пазов.
+                </div>
+                <a href='' class="fla">Подробнее</a>
+            </div>
+        </div>
+        <div class="row py-3 bl-news">
+            <div class="news-block-img col-12 col-md-2">
+                <img src="img/news.png" alt="img" class='img-news'>
+            </div>
+            <div class="news-block-text col-12 col-md-9">
+              <div class="opis">Описание</div>
+              <div class="kalend"><img src="img/kalend.png" alt="img"> 30.05.2018</div>
+                <div class="news-text">Дисковые фрезы предназначены для обработки плоскостей, уступов и пазов. Основным типом дисковых фрез являются трехсторонние. Они имеют зубья на цилиндрической поверхности и на обоих торцах. Их применяют для обработки уступов и более глубоких пазов. Они обеспечивают более высокий класс шероховатости боковых стенок паза или уступа. Они имеют зубья на цилиндрической поверхности и на обоих торцах. Их применяют для обработки уступов и более глубоких пазов.
+                </div>
+                <a href='' class="fla">Подробнее</a>
+            </div>
+        </div>
+        <div class="row py-3 bl-news">
+            <div class="news-block-img col-12 col-md-2">
+                <img src="img/news.png" alt="img" class='img-news'>
+            </div>
+            <div class="news-block-text col-12 col-md-9">
+              <div class="opis">Описание</div>
+              <div class="kalend"><img src="img/kalend.png" alt="img"> 30.05.2018</div>
+                <div class="news-text">Дисковые фрезы предназначены для обработки плоскостей, уступов и пазов. Основным типом дисковых фрез являются трехсторонние. Они имеют зубья на цилиндрической поверхности и на обоих торцах. Их применяют для обработки уступов и более глубоких пазов. Они обеспечивают более высокий класс шероховатости боковых стенок паза или уступа. Они имеют зубья на цилиндрической поверхности и на обоих торцах. Их применяют для обработки уступов и более глубоких пазов.
+                </div>
+                <a href='' class="fla">Подробнее</a>
+            </div>
+        </div>
+        <div class="row py-3 bl-news">
+            <div class="news-block-img col-12 col-md-2">
+                <img src="img/news.png" alt="img" class='img-news'>
+            </div>
+            <div class="news-block-text col-12 col-md-9">
+              <div class="opis">Описание</div>
+              <div class="kalend"><img src="img/kalend.png" alt="img"> 30.05.2018</div>
+                <div class="news-text">Дисковые фрезы предназначены для обработки плоскостей, уступов и пазов. Основным типом дисковых фрез являются трехсторонние. Они имеют зубья на цилиндрической поверхности и на обоих торцах. Их применяют для обработки уступов и более глубоких пазов. Они обеспечивают более высокий класс шероховатости боковых стенок паза или уступа. Они имеют зубья на цилиндрической поверхности и на обоих торцах. Их применяют для обработки уступов и более глубоких пазов.
+                </div>
+                <a href='' class="fla">Подробнее</a>
+            </div>
+        </div>
+        <div class="row py-3 bl-news">
+            <div class="news-block-img col-12 col-md-2">
+                <img src="img/news.png" alt="img" class='img-news'>
+            </div>
+            <div class="news-block-text col-12 col-md-9">
+              <div class="opis">Описание</div>
+              <div class="kalend"><img src="img/kalend.png" alt="img"> 30.05.2018</div>
+                <div class="news-text">Дисковые фрезы предназначены для обработки плоскостей, уступов и пазов. Основным типом дисковых фрез являются трехсторонние. Они имеют зубья на цилиндрической поверхности и на обоих торцах. Их применяют для обработки уступов и более глубоких пазов. Они обеспечивают более высокий класс шероховатости боковых стенок паза или уступа. Они имеют зубья на цилиндрической поверхности и на обоих торцах. Их применяют для обработки уступов и более глубоких пазов.
+                </div>
+                <a href='' class="fla">Подробнее</a>
+            </div>
+        </div>
+<ul class="paginator">
+    <li class="prev"><a href="">&nbsp;</a></li>
+    <li><a href="">1</a></li>
+    <li><a href="">2</a></li>
+    <li><a href="">3</a></li>
+    <li><a href="">4</a></li>
+    <span>...</span>
+    <li><a href="">10</a></li>
+    <li class="next"><a href="">&nbsp;</a></li>
+</ul>
+
+
     </div>
     <!-- конец main -->
 

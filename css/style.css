@@ -1429,8 +1429,178 @@ box-shadow: -1px 0px 27px 0px rgba(0,0,0,0.14);
 .harki-min .tire-start, .harki-min .tire-end {
     background: #eeeeee;
 }
-
-
+#accordion-left .card-header:after {
+    content: none;
+}
+#accordion-left .stab {
+    text-transform: none;
+    font-weight: 400;
+}
+#accordion-left a {
+    text-align: left;
+}
+.cin_sop {
+    text-align: left;
+}
+.cin_sop a {
+    text-align: left;
+    color: #2a2a2a;
+    font-size: 13px;
+    font-weight: 400;
+    background-image: url(../img/tochka-spisok.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-left: 16px;
+    margin-left: 12px;
+    display: block;
+    padding: 4px 0;
+    padding-left: 16px;
+    margin-left: 12px;
+}
+#accordion-left .stab img {
+    max-width: 28px;
+    position: relative;
+    right: 10px;
+}
+#accordion-left .card-header {
+    padding: 
+}
+.shade {
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.27);
+    background-color: #ffffff;
+    background-image: url(../img/duga.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 24px;
+    max-height: 158px;
+    overflow: hidden;
+    margin-bottom: 26px;
+    margin-left: 5px;
+}
+.shade img {
+    max-height: 120px;
+}
+.frezi {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+.primren {
+    font-size: 14px;
+    font-weight: 600;
+}
+.trehst {
+    font-size: 14px;
+}
+.tver-form .map-form {
+    position: relative;
+    max-width: 100%;
+    margin-left: 0;
+}
+.tver-form .map-info__title {
+    width: 100%;
+    text-align: center;
+}
+.tver-form .map-info__min {
+    width: 100%;
+    text-align: center;
+    color: #eeeded;
+    font-size: 18px;
+}
+.tver-form .map-form__input-submit {
+    background: transparent;
+    border: 2px solid #bd0004;
+    color: #bd0004;
+    height: 38px;
+}
+.shade-min {
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.27);
+    background-color: #ffffff;
+    margin: 20px
+}
+.shade-min:hover {
+    text-decoration: none;
+}
+.shade-min img {
+    margin: auto;
+    padding-top: 22px;
+}
+.texx-body {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.opis {
+    color: #373737;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 13.29px;
+    margin-bottom: 14px;
+}
+.news-text {
+    color: #2a2a2a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.kalend {
+    padding-bottom: 14px;
+}
+.img-news {
+    padding-bottom: 20px;
+}
+.kalend img {
+    margin-right: 6px;
+}
+.bl-news {
+    border-bottom: 1px solid #b2b2b2;
+    margin-top: 18px;
+}
+.paginator li {
+    list-style: none;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 29px;
+    width: 29px;
+    height: 29px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.32);
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.paginator {
+    text-align: center;
+    padding-top: 40px;
+}
+.paginator .prev {
+    margin-right: 12px;
+    background-image: url(../img/news-prev.png);
+    background-repeat: no-repeat;
+    background-position: center 6px;
+}
+.paginator .next {
+    margin-left: 12px;
+    background-image: url(../img/news-next.png);
+    background-repeat: no-repeat;
+    background-position: center 6px;
+}
+.paginator a {
+    color: #474747;
+}
+.fla {
+    float: right;
+    color: #dc0000;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 19px;
+    text-decoration: underline;
+}
 
 
 
@@ -1447,6 +1617,22 @@ box-shadow: -1px 0px 27px 0px rgba(0,0,0,0.14);
     }
 }
 @media (max-width:992px){
+    .zag {
+        font-size: 22px;
+    }
+    .hide992 {
+        display: none;
+    }
+    .shade {
+        margin-right: 0px;
+    }
+    .frezi {
+        padding-top: 44px;
+        text-align: center;
+    }
+    .primren, .trehst {
+        display: none;
+    }
     .cifr {
         font-size: 50px;
     }
