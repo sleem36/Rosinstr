@@ -1637,9 +1637,6 @@ input[type='radio']:checked:before {
 .p50 {
     margin-left: 50px;
 }
-.row#bel_fon .inpi {
-    width: 90%;
-}
 .polosa-form {
     height: 1px;
     background-color: #b2b2b2;
@@ -1668,6 +1665,77 @@ input[type='radio']:checked:before {
 .hide-group.row {
     margin: 0;
 }
+.guid-a {
+    color: #424242;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: underline;
+    padding-right: 24px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    background-image: url(../img/arr2.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.history .peit-arr {
+    font-style: italic;
+    text-decoration: underline!important;
+}
+.history .pl3 {
+    margin-left: 12px;
+}
+.pl3 a, .tire-s a {
+    color: #bd0004;
+}
+.history {
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.33);
+}
+.history .red-korz th {
+    padding: 14px;
+}
+.with-korz {
+    background-image: url(../img/red-korzina.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 46px;
+}
+.hist {
+border-radius: 20px;
+-webkit-box-shadow: inset 2px 2px 14px 0px rgba(0,0,0,0.06);
+-moz-box-shadow: inset 2px 2px 14px 0px rgba(0,0,0,0.06);
+box-shadow: inset 2px 2px 14px 0px rgba(0,0,0,0.06);
+border: 1px solid #ced4da;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    margin-bottom: 40px;
+}
+.text-nowrap .hist {
+    width: 90%;
+    background-image: url(../img/kalend.png);
+    background-repeat: no-repeat;
+    background-position: center right 16px;
+}
+.korz-min.histor .raspord{
+    background-image: url(../img/kalend.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.korz-min.histor .turl{
+    font-weight: bold;
+}
+.tire-s a, .tire-s {
+    font-size: 12px;
+}
+
+
+
 
 
 
