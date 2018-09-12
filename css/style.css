@@ -524,9 +524,9 @@ input[type='checkbox'] {
     position: relative;
     top: 4px;
     left: 2px;
-    width: 22px;
+    width: 14px;
     margin-right: 16px;
-    height: 20px;
+    height: 15px;
 }
 .zapomn {
     color:#a2a2a2;
@@ -1166,10 +1166,14 @@ box-shadow: -1px 0px 27px 0px rgba(0,0,0,0.14);
     width: 100%;
     margin-left: 15px;
     margin-bottom: 10px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.33);
 }
 .red-korz-1 td {
     text-align: center;
     padding: 10px 0;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid #fff;
 }
 .red-korz-1 tr {
    background-color: #fff;
@@ -1196,6 +1200,7 @@ box-shadow: -1px 0px 27px 0px rgba(0,0,0,0.14);
     max-width: 88px;
     border: 1px solid #e8e8e8;
     margin: auto;
+    display: inline-block;
 }
 .a-udal {
     text-decoration: none;
@@ -1388,6 +1393,8 @@ box-shadow: -1px 0px 27px 0px rgba(0,0,0,0.14);
 }
 .plus, .minus {
     cursor:pointer;
+    border-radius: 10px;
+    padding: 2px;
 }
 .qty-min .number {
     max-width: 190px;
@@ -1733,6 +1740,183 @@ border: 1px solid #ced4da;
 .tire-s a, .tire-s {
     font-size: 12px;
 }
+.gosti {
+    color: #373737;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 13.31px;
+    margin-top: 40px;
+}
+.dop-check input[type='checkbox']:before {
+    content: ' ';
+    display: block;
+    border-radius: 0px; 
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.dop-check {
+    margin-bottom: 0;
+    margin-left: 4px;
+}
+.red-korz-1 th {
+    padding: 8px;
+    background: #bd0004;
+    border: 1px solid #fff;
+    text-align: center;
+}
+#form_top2 #fikus_top2 {
+    margin-right: 10px;
+    position: absolute;
+    right: 22px;
+    top: 7px;
+    cursor: pointer;
+}
+#form_top2 .form-control {
+    border-radius: 20px;
+    width: 100%;
+}
+#form_top2 {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#form_top2 .form-control::-moz-placeholder {
+  color: #999999;
+}
+#form_top2 .form-control:-ms-input-placeholder {
+  color: #999999;
+}
+#form_top2 .form-control::-webkit-input-placeholder {
+  color: #999999;
+  font-size: 15px;
+}
+.pokaz-par {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 36px;
+    padding-top: 20px;
+}
+.doppar {
+    background-image: url(../img/preim.png);
+    background-position: right center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    border-bottom: 1px dotted;
+    padding-right: 22px;
+    cursor: pointer;
+}
+.novinka {
+    float: right;
+    padding-left: 30px;
+    background-image: url(../img/new.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: #5c5c5c;
+    font-size: 10px;
+    font-style: italic;
+    line-height: 19.54px;
+    margin-left: 40px;
+}
+.doppar-n {
+    display: inline-block;
+}
+.ui-state-default, 
+.ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default, 
+.ui-button, html .ui-button.ui-state-disabled:hover, 
+html .ui-button.ui-state-disabled:active {
+    border: 0;
+    background: transparent;
+    background-image: url(../img/shar.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    width:25px;
+    height:25px;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -11px;
+    outline: none;
+}
+.ui-slider-horizontal {
+    height: 4px;
+}
+.ui-widget-header {
+    border: 0;
+    background: #bd0004;
+}
+.ui-widget.ui-widget-content {
+    border: 0;
+    background: #dfdfdf;
+}
+.catalog__filter-range-input {
+    width: 81px;
+    height: 28px;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.33);
+    border-radius: 14px;
+    background-color: #ffffff;
+    color: #353535;
+    font-size: 14px;
+    font-size: 12px;
+    line-height: 12px;
+}
+.pokaz-par .htot {
+    margin: 20px 0 10px 0;
+    display: block;
+}
+.filtr-butt {
+    width: 143px;
+    height: 32px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.21);
+    padding-top: 2px;
+}
+.filtr-butt-light {
+    border-radius: 15px;
+    border: 1px solid #b8b8b8;
+    color: #767676;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 13.29px;
+    float: right;
+}
+.pokaz-par .red_butt {
+    margin-right: 30px;
+}
+.pagin-bott-filtr {
+    padding-top: 40px;
+}
+.pagin-bott-filtr .catalog__filter-range-input {
+    font-size: 14px;
+}
+.pagin-bott .paginator {
+    text-align: right;
+}
+.bottom-clkik {
+    margin-left: 8px;
+}
+.catalog__filter-range-price {
+    white-space: nowrap;
+}
+.wrap {
+    white-space: nowrap;
+}
+.doppar.ink {
+    background-image: url(../img/risun.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+}
+.filtr_320 {
+    margin-bottom: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+.filtr_320_otkr {
+    margin-bottom: 20px;
+}
+
+
 
 
 
@@ -1753,6 +1937,9 @@ border: 1px solid #ced4da;
     }
 }
 @media (max-width:992px){
+    .xert .hist {
+        margin-bottom: 0;
+    }
     .zag {
         font-size: 22px;
     }
@@ -1787,7 +1974,7 @@ border: 1px solid #ced4da;
     }
     .spis2{
         padding-bottom: 14px;
-    }    
+    }
     .dili {
         position: fixed;
         width: 100%;
@@ -1795,20 +1982,20 @@ border: 1px solid #ced4da;
     }
     #hitr2 {
         display: none!important;
-    }    
+    }
 	.d-fl3, .d-fl4, .city, .la3, #hitr  {
 		display: none;
-	}	
+	}
 	.d-fl0 {
 		display: block;
-	}	
+	}
 	.logo {
 		position: absolute;
         width: 30%;
         max-width: 180px;
         top: 6px;
         min-width: 100px;
-	}	
+	}
     .col.d-fl5 {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -1825,7 +2012,7 @@ border: 1px solid #ced4da;
     }
     .sert1 {
         background-position: 74% center;
-    }            
+    }
 }
 @media (min-width:992px){
     .s_ted {
@@ -1868,6 +2055,10 @@ border: 1px solid #ced4da;
     }
 }
 @media(max-width:768px){
+    .pagin-bott-filtr {
+        padding-top: 20px;
+        text-align: right;
+    }
     .p50 {
         margin-left: 0px;
     }
@@ -1941,6 +2132,19 @@ border: 1px solid #ced4da;
     }
 }
 @media (max-width:500px){
+    .korz-min  .raspord {
+        float: none;
+    }
+    .filtr-butt {
+        width: 100px;
+        height: 32px;
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+    .qty.qty-min input[type="text"] {
+        width: 34px;
+    }
     .do-otz {
         position: relative;
         right: 5px;
